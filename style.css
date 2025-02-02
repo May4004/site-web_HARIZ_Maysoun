@@ -1,0 +1,274 @@
+/*Acceuil*/
+.header-title {
+    display: flex;
+    font-family: 'Aptos', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 10px; 
+    align-items: center;
+    justify-content: center;
+}
+.header-title-img {
+    margin-left: 10px;
+}
+body {
+    background-image: url('many-blister-pills-pack-with-syringe-stethoscope-ecg-report-clipboard-white-backdrop.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+}
+.nav-text {
+    color: #740447;
+    font-family: 'Aptos', sans-serif;
+}
+
+.nav-text li {
+    list-style: none;
+    margin: 10px;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.nav-text i {
+    margin-right: 8px;
+}
+
+.highlight-text {
+    color: #740447;
+}
+.footer {
+    font-family: 'Aptos', sans-serif;
+    text-indent: 1em;
+}
+.section {
+    font-family: 'Aptos', sans-serif;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    padding: 16px;
+    box-shadow: 0 2px 4px;
+    transition: box-shadow 0.3s;
+    width: 300px;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.card i {
+    margin-right: 8px;
+    display: block;
+    margin: 0 auto;
+}
+nav ul {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 0;
+    list-style: none;
+    margin: 0 auto; 
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    box-shadow: 0 2px 4px;
+    transition: box-shadow 0.3s;
+    width: 300px; 
+    text-align: center; 
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+    display: block; 
+}
+
+.card i {
+    margin-right: 8px;
+    display: block; 
+    margin: 0 auto; 
+}
+.center-title { 
+    text-align: center;
+}
+.ident-paragraph {
+    text-indent: 2em;
+}
+
+
+/*Partie IMC*/
+
+
+.header-title-1 { 
+    display: flex;
+    font-family: 'Aptos', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 10px; 
+    align-items: center;
+    justify-content: center;
+}
+.header-title-1-img {
+    margin-left: 10px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: 'Aptos', sans-serif;
+    color:black;
+
+}
+.ul-text-1 {
+    font-family: 'Aptos', sans-serif;
+    color:#740447;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.card-1 {
+    border: 1px solid #ccc;
+    border-color: #740447;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    color: black;
+    box-shadow: 0 1px 2px;
+    background-color : white;
+}
+.card-1 p{
+    color: #000;
+}
+.card-1 a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.card-1 i {
+    margin-right: 8px;
+}
+.center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card-1-form {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-color: #740447;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    color:black;
+    box-shadow: 0 1px 2px;
+}
+.card-1-form label,
+.card-1-form input,
+.card-1-form button {
+    width: 100%;
+    max-width: 300px;
+    margin: 5px 0;
+}
+.card-1-form input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.card-1-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #740447;
+    color: white;
+    cursor: pointer;
+}
+.card-1-form button:hover {
+    background-color: #5a0335;
+}
+
+
+/*Partie DSAM*/
+
+
+
+.header-title-2 { 
+    display: flex;
+    font-family: 'Aptos', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 10px; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.header-title-2-img {
+    margin-left: 10px;
+}
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    font-family: 'Aptos', sans-serif;
+    color:black;
+}
+.card-2 {
+    border: 1px solid #ccc;
+    border-color: #740447;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 50px;
+    color: black;
+    box-shadow: 0 1px 2px;
+    background-color : white;
+}
+
+
+
+
+
+/*Partie PMGC*/
