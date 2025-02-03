@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>PMGC.html</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header class="header-title-1">
+            <h1>Pourcentage de masse grasse corporelle</h1>
+            <img src="C:\Users\May\Documents\L3 SPS\Cours\Informatique\Exo et brouillon\Tp4 Création site web\SiteWeb HARIZ_Maysoun\body-fat.png" width="50" class="header-title-1-img">        
+        </header>
+        <section class="section-1" >
+            <p class="card-1"  >Le pourcentage de masse grasse corporelle (PMGC) est une mesure qui permet d’évaluer la proportion de graisse par rapport à la masse totale du corps. 
+                Cette mesure est un indicateur de santé important, car un excès de graisse corporelle peut augmenter les risques de maladies cardiovasculaires, de diabète de type 2, d’hypertension artérielle ou encore de certains cancers.  
+                <br><br>
+                Attention : L'outil se base sur la formule de Deurenberg qui permet de mesurer le PMGC à partir de l'IMC. 
+                C'est un indicateur empirique qui ne tient pas compte de la composition corporelle précise (la musculaire ou osseuse) ainsi que certains facteurs tels que la répartition des graisses (viscérales ou sous-cutanées).
+            </p>
+            <br>
+            <div class="center-form">
+                <form id="PMGC-calcul" class="card-1-form">
+                    <label for="poids">Poids (kg)</label>
+                    <input type="text" id="poids" name="poids"><br><br>
+                
+                    <label for="taille">Taille (m)</label>
+                    <input type="text" id="taille" name="taille"><br><br>
+
+                    <label for="age">Age</label>
+                    <input type="text" id="age" name="age"><br><br>
+
+                    <label for="sexe">Sexe</label>
+                    <select id="sexe" name="sexe">
+                        <option value="homme">Homme</option>
+                        <option value="femme">Femme</option>
+                    </select><br><br>
+
+                    <button type="submit">Calculer votre pourcentage de masse grasse</button>
+                </form>
+                <div id="resultat"></div>
+                <script src="Calcul-PMGC.js"></script>
+            </div> 
+        </section>
+    </body>
+</html>

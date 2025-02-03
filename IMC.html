@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <title>IMC.html</title>
+        <!-- Lien vers le fichier CSS -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header class="header-title-1">
+            <!-- En tete du site -->
+            <h1>Indice de masse corporelle</h1>
+            <img src="C:\Users\May\Documents\L3 SPS\Cours\Informatique\Exo et brouillon\Tp4 Création site web\SiteWeb HARIZ_Maysoun\scales.png" width="40" class="header-title-1-img">        
+        </header>
+        <section class="section-1" >
+            <!-- Description du calculateur -->
+            <p class="card-1"  p>L’IMC est une grandeur permettant d’estimer la corpulence d’une personne. Calculé en divisant le poids (en kg) par la taille au carré (en m²), il est un outil simple et accessible pour évaluer les risques potentiels pour la santé associés à une insuffisance ou un excès de poids.
+                <br><br>
+                Il est utile pour mettre en évidence une augmentation des facteurs de risque liés à certaines pathologies, 
+                telles que les maladies cardiovasculaires, le diabète de type 2, l’hypertension artérielle ou encore certains cancers. 
+                Chez les adultes, l’IMC est interprété selon les seuils établis par l’OMS : </p>
+            <ul class="ul-text-1">
+               <!--Liste des seuils de l'IMC--> 
+                <li> < 18,5 : insuffisance pondérale (maigreur) </li>
+                <li> 18,5-25 : corpulence normale</li>
+                <li> 25-30 : surpoids</li>
+                <li> ≥ 30 : obésité </li>
+            </ul>
+            <p class="card-1"> Attention : l’IMC reste un indicateur empirique qui ne tient pas compte de la composition corporelle précise (la masse grasse, musculaire ou osseuse) ainsi que certains facteurs tels que la répartition des graisses (viscérales ou sous-cutanées) ou la variabilité liée à l’âge, au sexe, ou à l’origine ethnique.</p>
+            <br>
+            <div class="center-form">
+               <!-- Formulaire d'entrée des données--> 
+                <form id="IMC-calcul" class="card-1-form">
+                    <label for="zone1">Poids (kg)</label>
+                    <input type="text" id="zone1" name="zone1"><br><br>
+                
+                    <label for="zone2">Taille (m)</label>
+                    <input type="text" id="zone2" name="zone2"><br><br>
+
+                    <button type="submit">Calculer votre IMC</button>
+                </form>
+                <!--Script de calcul de l'IMC-->
+                <script src="calcul.js"></script>
+            </div> 
+        </section>
+    </body>
+</html>
+
