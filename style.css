@@ -1,133 +1,169 @@
 /*Acceuil*/
-.header-title {
-    display: flex;
-    font-family: 'Aptos', sans-serif;
-    font-weight: bolder;
-    text-align: center;
-    margin-right: 10px; 
-    align-items: center;
-    justify-content: center;
-}
-.header-title-img {
-    margin-left: 10px;
-}
-body {
-    background-image: url('many-blister-pills-pack-with-syringe-stethoscope-ecg-report-clipboard-white-backdrop.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
-.nav ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style: none;
-    margin: 0 auto;
-}
-.nav-text {
-    color: #740447;
-    font-family: 'Aptos', sans-serif;
+.header-title { /*Style du titre de la page*/
+    display: flex; /*Pour aligner le texte et l'image*/
+    font-family: 'Aptos', sans-serif; /*Police de caractère*/
+    font-weight: bolder; /*Gras*/
+    text-align: center; /*Centrer le texte*/
+    margin-right: 10px; /*Marge à droite*/
+    align-items: center; /*Aligner les éléments*/
+    justify-content: center; /*Centrer les éléments*/
 }
 
+/* Style pour indenter les paragraphes */
+.indent-paragraph {
+    text-indent: 2em; /* Indente la première ligne du paragraphe */
+}
+
+/* Style pour l'image dans l'en-tête */
+.header-title-img {
+    margin-left: 10px; /* Marge à gauche */
+}
+
+/* Style pour le corps de la page */
+body {
+    background-image: url('many-blister-pills-pack-with-syringe-stethoscope-ecg-report-clipboard-white-backdrop.jpg'); /* Wallpaper */
+    background-size: cover; /* Couvre toute la page */
+    background-attachment: fixed; /* L'image de fond reste fixe lors du défilement */
+    background-position: center; /* Centre l'image de fond */
+}
+
+/* Style pour la navigation */
+.nav ul{
+    display: flex; /* Utilise Flexbox pour aligner les éléments */
+    flex-direction: column; /* Aligne les éléments en colonne */
+    align-items: center; /* Centre les éléments horizontalement */
+    list-style: none; /* Supprime les puces */
+    margin: 0 auto; /* Centre la liste */
+}
+
+/* Style pour le texte de navigation */
+.nav-text {
+    color: #740447; /* Couleur du texte */
+    font-family: 'Aptos', sans-serif; /* Police de caractère */
+}
+
+/* Style pour les éléments de la liste de navigation */
 .nav-text li {
     list-style: none;
     margin: 10px;
 }
 
+/* Style pour les liens de navigation */
 .nav-text a {
-    text-decoration: none;
-    color: inherit;
-    display: flex;
-    align-items: center;
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: inherit; /* Couleur du texte */
+    display: flex;  /* Utilise Flexbox pour aligner les éléments */
+    align-items: center;    /* Aligner les éléments */
 }
 
+/* Style pour les icônes de navigation */
 .nav-text i {
-    margin-right: 8px;
+    margin-right: 8px; /* Marge à droite */
 }
 
+/* Style pour le texte de la page */
 .highlight-text {
-    color: #740447;
+    color: #740447; /* Couleur du texte */
 }
+
+/* Style pour le pied de page */
 .footer {
-    font-family: 'Aptos', sans-serif;
-    text-indent: 1em;
+    font-family: 'Aptos', sans-serif; /* Police de caractère */
+    text-indent: 1em; /* Indente la première ligne du paragraphe */
 }
+
+/* Style pour les sections */
 .section {
-    font-family: 'Aptos', sans-serif;
+    font-family: 'Aptos', sans-serif; /* Police de caractère */
 }
+
+/* Style pour les titres de section */
 .card {
-    border: 1px solid #ccc;
-    border-radius: 8px; 
-    padding: 16px;
-    box-shadow: 0 2px 4px;
-    transition: box-shadow 0.3s;
-    width: 300px;
-    text-align: center;
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 16px; /* Marge intérieure */
+    box-shadow: 0 2px 4px; /* Ombre */
+    transition: box-shadow 0.3s; /* Transition de l'ombre */
+    width: 300px; /* Largeur */
+    text-align: center; /* Centrer le texte */
 }
 
+/* Style pour les cartes au passage de sourie */
 .card:hover {
-    box-shadow: 0 4px 8px;
+    box-shadow: 0 4px 8px; /* Ombre au passage*/
 }
 
+/* Style pour les liens dans les cartes */
 .card a {
-    text-decoration: none;
-    color: inherit;
-    display: block;
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: inherit; /* Couleur du texte */
+    display: block; /* Affiche en bloc */
 }
 
+/* Style pour les icônes dans les cartes */
 .card i {
-    margin-right: 8px;
-    display: block;
-    margin: 0 auto;
+    margin-right: 8px; /* Marge à droite */
+    display: block; /* Affiche en bloc */
+    margin: 0 auto; /* Centre l'élément */
 }
+
+/* Style pour les titres centrés */
 nav ul {
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    padding: 0;
-    list-style: none;
-    margin: 0 auto; 
+    display: flex; /* Utilise Flexbox pour aligner les éléments */
+    flex-direction: column; /* Aligne les éléments en colonne */ 
+    align-items: center;   /* Centre les éléments horizontalement */
+    padding: 0; /* Supprime les marges intérieures */ 
+    list-style: none; /* Supprime les puces */
+    margin: 0 auto; /* Centre la liste */
 }
 
+/* Style pour les titres centrés */
 .card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
-    margin: 10px;
-    box-shadow: 0 2px 4px;
-    transition: box-shadow 0.3s;
-    width: 300px; 
-    text-align: center; 
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 16px; /* Marge intérieure */
+    margin: 10px; /* Marge extérieure */
+    box-shadow: 0 2px 4px; /* Ombre */
+    transition: box-shadow 0.3s; /* Transition de l'ombre */
+    width: 300px; /* Largeur */ 
+    text-align: center; /* Centrer le texte */
 }
 
+/* Style pour les cartes au passage de sourie */
 .card:hover {
-    box-shadow: 0 4px 8px;
+    box-shadow: 0 4px 8px; /* Ombre au passage */
 }
 
+/* Style pour les liens dans les cartes */
 .card a {
-    text-decoration: none;
-    color: inherit;
-    display: block; 
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: inherit; /* Couleur du texte */
+    display: block; /* Affiche en bloc */
 }
 
+/* Style pour les icônes dans les cartes */
 .card i {
-    margin-right: 8px;
-    display: block; 
-    margin: 0 auto; 
+    margin-right: 8px; /* Marge à droite */
+    display: block; /* Affiche en bloc */
+    margin: 0 auto; /* Centre l'élément */
 }
+
+/* Style pour les titres centrés */
 .center-title { 
-    text-align: center;
+    text-align: center; /* Centrer le texte */
 }
+
+/* Style pour les paragraphes centrés */
 .ident-paragraph {
-    text-indent: 2em;
+    text-indent: 2em; /* Indente la première ligne du paragraphe */
 }
 
 
-/*Partie IMC*/
+/*Partie IMC et PGMC*/
 
-
+/* Style pour le titre de la page */
 .header-title-1 { 
-    display: flex;
+    display: flex; 
     font-family: 'Aptos', sans-serif;
     font-weight: bolder;
     text-align: center;
@@ -139,11 +175,13 @@ nav ul {
     margin-left: 10px;
 }
 
+/* Style pour les sections */
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
 }
+
 .section-1 {
     display: flex;
     flex-direction: column;
@@ -170,6 +208,7 @@ html, body {
     color: black;
     box-shadow: 0 1px 2px;
     background-color : white;
+    text-align: justify;
 }
 .card-1 p{
     color: #000;
@@ -202,6 +241,8 @@ html, body {
     color:black;
     box-shadow: 0 1px 2px;
 }
+
+/* Style pour les formulaires */
 .card-1-form label,
 .card-1-form input,
 .card-1-form button {
@@ -265,10 +306,5 @@ html, body {
     color: black;
     box-shadow: 0 1px 2px;
     background-color : white;
+    text-align: justify;
 }
-
-
-
-
-
-/*Partie PMGC*/
